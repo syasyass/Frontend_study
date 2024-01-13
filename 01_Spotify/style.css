@@ -1,0 +1,23 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0px;
+}
+
+.nav {
+  height: 80px;
+  background-color: black;
+}
+
+.main {
+  height: 969px;
+  background-color: rgb(41, 65, 171);
+}
+
+.footer {
+  height: 530px;
+  background-color: black;
+}
