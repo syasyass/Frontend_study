@@ -1,0 +1,178 @@
+.navbar {
+  background: #fff;
+  height: 90px;
+}
+
+body {
+  font-size: 15px;
+  color: #373737;
+  font-family: NotoSans, AppleSDGothicNeo-Light, AppleGothic, Malgun Gothic,
+    '맑은 고딕', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+hr {
+  color: #a4a4a4;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.nav-link {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: -0.1px;
+}
+
+.nav-item {
+  padding: 0 15px;
+  vertical-align: middle;
+  color: black;
+}
+
+.nav-link:hover {
+  color: #f6ca00;
+}
+
+.nav-1 {
+  justify-content: flex-start;
+}
+
+.nav-2 {
+  justify-content: flex-end;
+}
+
+.card-body {
+  background-color: #eeecec;
+  border-bottom: 6px solid #373737;
+  padding: 25px 25px 0px 25px;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-first {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.card-second {
+  background-color: #f6ca00;
+  padding: 45px 30px 0 30px;
+  margin-bottom: 80px;
+}
+
+.card-third {
+  margin-bottom: 80px;
+}
+
+.card-first-container {
+  justify-content: space-between;
+}
+
+.card-link {
+  font-size: 13px;
+  font-weight: 1200;
+  margin-left: 10px;
+}
+
+.card-link-p {
+  padding: 10px 0px;
+  margin-top: 20px;
+}
+
+.footer-container {
+  background-color: #f6ca00;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-link {
+  font-weight: bold;
+}
+
+.footer-link-container {
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+.footer-link-2 {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.footer-container-2 {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.footer-container-3 {
+  padding-bottom: 30px;
+}
+
+.footer-container-4 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.icon-box {
+  width: 40px;
+  height: 40px;
+  background-color: #222322;
+  color: #f6ca00;
+  border-radius: 50%;
+  margin-right: 6px;
+  margin-left: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 48rem) {
+  .first-line {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 48rem) {
+  .second-line {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+.third-line {
+  display: none;
+}
+
+@media screen and (max-width: 48rem) {
+  .third-line {
+    display: block;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 48rem) {
+  .card-title {
+    font-weight: bold;
+    font-size: 1rem;
+  }
+}
